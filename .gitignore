@@ -1,0 +1,111 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# It's better to unpack these files and commit the raw source
+# Git has its own built-in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Images and media #
+####################
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.tiff
+*.ico
+
+# Environment and configuration files #
+#######################################
+.env
+.env.local
+.env.*.local
+*.config.js
+*.config.json
+*.config.yaml
+
+# Temporary files #
+###################
+*.swp       # Swap files (Vim, etc.)
+*.tmp
+*.bak
+*.backup
+*.orig      # Backup files created by merge tools
+*.rej       # Rejected patches
+
+# Build and dependency files #
+##############################
+# Node.js
+node_modules/
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Java
+/build/
+target/
+
+# C/C++
+*.out
+*.obj
+*.d
+
+# IDE/Editor specific files #
+##############################
+# VS Code
+.vscode/
+
+# JetBrains (IntelliJ, PyCharm, WebStorm)
+.idea/
+
+# Eclipse
+.project
+.classpath
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Large assets or backups #
+###########################
+*.psd
+*.ai
+*.mp4
+*.mkv
+*.wav
+*.mp3
+*.raw
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
